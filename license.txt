@@ -1,0 +1,11 @@
+Model Information:
+* title:	AK-12
+* source:	https://sketchfab.com/3d-models/ak-12-f78ad7ae10ad4335b3ad81be3ec15bb0
+* author:	rwroclav (https://sketchfab.com/rwroclav)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "AK-12" (https://sketchfab.com/3d-models/ak-12-f78ad7ae10ad4335b3ad81be3ec15bb0) by rwroclav (https://sketchfab.com/rwroclav) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
