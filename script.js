@@ -47,6 +47,12 @@ window.addEventListener("resize", () => {
     menu.style.setProperty("--timeOut", "none");
 });
 
-
+function addScene() {
+  var scene = document.createElement("iframe")
+  scene.setAttribute("src", "ar.html")
+  scene.setAttribute("width", "300")
+  scene.setAttribute("height", "300")
+  document.querySelector("body").appendChild(scene)
+}
 
 Resources
