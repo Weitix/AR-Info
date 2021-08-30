@@ -18,13 +18,14 @@ function clickItem(item, index) {
     }
 
     
+
+    
     item.classList.add("active");
     body.style.backgroundColor = bgColorsBody[index];
     activeItem = item;
-    offsetMenuBorder(activeItem, menuBorder);
+    offsetMenuBorder(activeItem, menuBorder);   
+}   
     
-    
-}
 
 function offsetMenuBorder(element, menuBorder) {
 
@@ -47,12 +48,3 @@ window.addEventListener("resize", () => {
     menu.style.setProperty("--timeOut", "none");
 });
 
-function addScene() {
-  var scene = document.createElement("iframe")
-  scene.setAttribute("src", "ar.html")
-  scene.setAttribute("width", "300")
-  scene.setAttribute("height", "300")
-  document.querySelector("body").appendChild(scene)
-}
-
-Resources
