@@ -27,7 +27,7 @@
       </svg>
     </button>
 
-    <button  class="menu__item" style="--bgColorItem: #4343f5;" >
+    <button onclick="addSceness()"  class="menu__item" style="--bgColorItem: #4343f5;" >
       <svg class="icon" viewBox="0 0 24 24">
       <path  d="M3.4,11.9l8.8,4.4l8.4-4.4"/>
       <path  d="M3.4,16.2l8.8,4.5l8.4-4.5"/>
@@ -73,6 +73,22 @@
     }
     */
     </script>
+    <script>
+      function addSceness() {
+        var scene = document.createElement("iframe")
+        scene.setAttribute("src", "/slider/dist/index.html")
+        scene.setAttribute("width", "420")
+        scene.setAttribute("height", "810")
+        document.querySelector("body").appendChild(scene)
+        function selectDate(){
+    if(this.classList.contains('active')){
+        this.classList.remove('active');
+    }else {
+        this.classList.add('active');
+    }
+}
+      }
+      </script>
   <script>
     function addScenes() {
       var scene = document.createElement("iframe")
