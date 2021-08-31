@@ -54,8 +54,8 @@
   </div>
   <script>
 
-   let zopa = getComputedStyle(button[backgroundColor])
-    if (zopa  == '#4343f5' ) {
+   let zopa = body.style ("overflow: hidden; background-color: rgb(153, 153, 251);")
+    if (zopa ) {
     alert(хуй);
     }
   </script>
@@ -80,21 +80,14 @@
         scene.setAttribute("width", "420")
         scene.setAttribute("height", "810")
         document.querySelector("body").appendChild(scene)
-        function selectDate(){
-    if(this.classList.contains('active')){
-        this.classList.remove('active');
-    }else {
-        this.classList.add('active');
-    }
-}
       }
       </script>
   <script>
     function addScenes() {
       var scene = document.createElement("iframe")
       scene.setAttribute("src", "/parallax/index.html")
-      scene.setAttribute("width", "390")
-      scene.setAttribute("height", "800")
+      scene.setAttribute("width", "420")
+      scene.setAttribute("height", "810")
       document.querySelector("body").appendChild(scene)
     }
     </script>
@@ -102,8 +95,8 @@
     function addScene() {
       var scene = document.createElement("iframe")
       scene.setAttribute("src", "ar.html")
-      scene.setAttribute("width", "400")
-      scene.setAttribute("height", "800")
+      scene.setAttribute("width", "420")
+      scene.setAttribute("height", "810")
       document.querySelector("body").appendChild(scene)
     }
     </script>
